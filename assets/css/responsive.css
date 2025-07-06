@@ -1,0 +1,162 @@
+
+@media screen and (max-width: 600px) {
+    /* NOTIF BOOSTER */
+    .toaster{
+        width: 94%;
+        bottom: 24vw;
+    }
+
+    /* BRANDS */
+    .brands .brands-wrap{
+        padding: 0 6px;
+    }
+    .brands .item{
+        margin: 8px 0;
+        width: 30vw;
+        height: 30vw;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    /* FORM ORDER */
+    .foto-produk{
+        height: 24vw;
+    }
+
+    /* SLIDER */
+    .slider-item{
+        width: 76vw;
+        min-width: 200px;
+        margin: 0px 3.2vw;
+    }
+    .slider-item img{
+        margin: 12px 0px;
+    }
+
+    /* TESTISMONI */
+    .testismoni .slick-next{
+        right: 0px;
+    }
+    .testimoni-item{
+        width: 70vw;
+    }
+    .testismoni .slick-prev{
+        left: -10px;
+    }
+
+    /* KERANJANG */
+    .keranjang{
+        padding: 16px 0px;
+    }
+    .keranjang .fs-20{
+        font-size: 16px;
+    }
+    .progress-checkout .fas{
+        font-size: 200%;
+    }
+
+    /* SIGN IN */
+    #signin,
+    #signin_otp,
+    #signup,
+    #signup_otp{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .bg-sign{
+        padding: 0px 8px;
+        margin-bottom: 60px;
+    }
+    .select2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* LIST PRODUK */
+    .produk-wrap{
+        padding: 8px;
+    }
+    .produk-item{
+        margin: 0;
+        padding: 8px;
+    }
+
+    /* KATEGORI */
+    .cat-bg{
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+    }
+    .cat-nama{
+        font-size: 80%;
+    }
+    .cat{
+        padding: 0px 20px;
+    }
+    .cat .slick-next{
+        right: 4px;
+    }
+    .cat .slick-prev{
+        left: -4px;
+        z-index: 1;
+    }
+    .kategori-btn,
+    .pencarian-btn{
+        margin-bottom: 12px;
+        width: 100%;
+        text-align: left;
+    }
+
+    /* BANNER */
+    .banner{
+        text-align: center;
+    }
+    .banner h2{
+        font-size: 160%;
+    }
+    .banner h5{
+        font-size: 100%;
+    }
+    
+    .showsmall-inline{
+        display: inline-block;
+    }
+    .showsmall{
+        display: block;
+    }
+    .hidesmall{
+        display: none !important;
+    }
+
+    .newproduct .p-b-30{
+        padding-bottom: 8px !important;
+    }
+    .blog-section .fs-18 a,
+    .kategori-wrapper .fs-18 a,
+    .newproduct .fs-18 a{
+        font-size: 14px !important;
+    }
+    .blog-section h3,
+    .kategori-wrapper h3,
+    .newproduct h3{
+        font-size: 18px !important;
+    }
+
+    /* SWIPER */
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: none !important;
+    }
+
+    .form-header::before{
+        z-index: -1;
+    }
+    .form-header{
+        z-index: 2;
+    }
+    .banner-iklans h3{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+}
