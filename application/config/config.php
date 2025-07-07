@@ -39,7 +39,9 @@ if(file_exists($lisensi)){
     $domain = "https://$_SERVER[HTTP_HOST]/";
 }
 */
-$config['base_url'] = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://".$_SERVER['HTTP_HOST']."/";
+
+$config['base_url'] = 'https://lerynstore.com/';
+
 /*
 |--------------------------------------------------------------------------
 | Index File
