@@ -1,4 +1,4 @@
-vendor/
-cdn/
-sessdrive/*
+/vendor/
+/cdn/
+/sessdrive/
 .env
